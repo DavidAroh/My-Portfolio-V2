@@ -57,9 +57,23 @@ const Projects = ({ limit }) => {
     {
       stack: "HTML CSS",
       title: "Nat-Geo website",
-      description: "A Nat-Geo wild with a beautiful UI and layout.(not mobile-responsive yet)",
+      description: "A Nat-Geo wild website with a beautiful UI and layout.(not mobile-responsive yet)",
       image: "assets/nat-geo.png",
       link: "https://nat-geo-kohl.vercel.app/",
+    },
+    {
+      stack: "HTML CSS JS TILTJS",
+      title: "3D Hover Effect",
+      description: "A 3D design with a beautiful hover effefct layout.(mobile-responsive)",
+      image: "assets/hover.png",
+      link: "https://3-d-effect-neon.vercel.app/",
+    },
+    {
+      stack: "HTML CSS",
+      title: "3D image spinner",
+      description: "A 3D image spinner with a stunning UI and layout.(not mobile-responsive yet)",
+      image: "assets/spinner.png",
+      link: "https://3d-spinner-nine.vercel.app/",
     },
   ];
 

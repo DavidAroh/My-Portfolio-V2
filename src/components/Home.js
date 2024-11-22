@@ -106,14 +106,16 @@ const Home = () => {
               He crafts responsive websites where technologies meet <br />
               creativity
             </motion.p>
-            <motion.button
-              className="hero-contact"
-              initial={{ y: -50, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.3 }}
-            >
-              Contact me
-            </motion.button>
+            <Link to="/contact">
+              <motion.button
+                className="hero-contact"
+                initial={{ y: -50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 0.3 }}
+              >
+                Contact me
+              </motion.button>
+            </Link>
           </div>
           <div className="hero-image" ref={heroImageRef}>
             <motion.img
@@ -262,10 +264,10 @@ const Home = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <div className="view-more-container3">
+          <div className="about-more-container">
             <div className="view-more-left">
               <div>
-                <h3 className="projects-area">
+                <h3 className="about-area">
                   <span>#</span>about-me
                 </h3>
               </div>

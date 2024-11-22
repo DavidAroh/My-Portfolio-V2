@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { RiGithubFill } from "react-icons/ri";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaGitAlt } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-import { BsWhatsapp } from "react-icons/bs";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
@@ -19,11 +17,9 @@ const Navbar = () => {
       <div className="links-icons">
         <div className="vertical-line"></div>
         <div className="icons">
-          <RiGithubFill />
-          <FaSquareXTwitter />
-          <FaGitAlt />
-          <BiLogoGmail />
-          <BsWhatsapp />
+          <a href="https://github.com/DavidAroh"><RiGithubFill /></a>
+          <a href="https://x.com/ArohTari29054"><FaSquareXTwitter /></a>
+          <a href="davidarohtari@gmail.com"><BiLogoGmail /></a>
         </div>
       </div>
 

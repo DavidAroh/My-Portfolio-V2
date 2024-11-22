@@ -64,17 +64,20 @@ span {
     left: 20px;
 }
 
-.icons {
+.icons{
     display: flex;
     flex-direction: column;
     gap: 10px;
     color: #48FF91;
     font-size: 22px;
     position: absolute;
-    bottom: -390px;
+    bottom: -350px;
     left: 11px;
 }
-
+.icons a{
+    color: #48FF91;
+    font-size: 23px;
+}
 .menu-icon {
     display: none;
     font-size: 1.5rem;

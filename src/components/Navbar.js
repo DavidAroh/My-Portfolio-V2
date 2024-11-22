@@ -41,22 +41,22 @@ const Navbar = () => {
       <ul className={`navbar-links ${isMobileMenuOpen ? "active" : ""}`}>
         <li>
           <Link to="/" onClick={() => setIsMobileMenuOpen(false)}>  
-            <span>#</span>home
+            <span>#</span>Home
           </Link>
         </li>
         <li>
           <Link to="/projects" onClick={() => setIsMobileMenuOpen(false)}>
-            <span>#</span>projects
+            <span>#</span>Projects
           </Link>
         </li>
         <li>
           <Link to="/about" onClick={() => setIsMobileMenuOpen(false)}>
-            <span>#</span>about-me
+            <span>#</span>About-me
           </Link>
         </li>
         <li>
           <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>
-            <span>#</span>contacts
+            <span>#</span>Contacts
           </Link>
         </li>
       </ul>

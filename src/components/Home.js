@@ -144,7 +144,6 @@ const Home = () => {
           </div>
         </div>
       </motion.section>
-
       {/* Projects Section */}
       <motion.section
         className="projects"

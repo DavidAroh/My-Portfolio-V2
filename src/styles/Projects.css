@@ -1,0 +1,96 @@
+/* src/components/Projects.css */
+.projects {
+    padding: 50px 20px;
+    background-color: #282C33;
+    color: #333;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.project-card {
+    background-color: #282C33;
+    border: 1px solid #ABB2BF;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+.project-image {
+    width: 100%;
+    height: 201px;
+}
+.stack{
+    color: #ABB2BF;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    text-align: left;
+    width: 312px;
+    height: 37px;
+    border: 1px solid #ABB2BF;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    position: relative;
+    bottom: 4.5px;
+}
+.project-desc{
+    color: #ABB2BF;
+    text-align: left;
+    padding: 12px;
+}
+.project-desc p{
+    font-size: 16px;
+    font-weight: 400px;
+}
+.project-title{
+    font-weight: 500;
+    color: white;
+    font-size: 24px;
+}
+.project-btn{
+    width: 109px;
+    height: 37px;
+    border: 1px solid #48FF91;
+    padding-bottom: 7px;
+    background: #282C33;
+    font-family: fira code;
+    color: #fff;
+}
+.project-icon{
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+@media (max-width: 768px) {
+    .projects {
+        padding: 50px 20px;
+        background-color: #282C33;
+        color: #333;
+        text-align: center;
+    }
+}
